@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/dotafraghub',
   images: {
     unoptimized: true,
     remotePatterns: [
