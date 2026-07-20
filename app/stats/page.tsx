@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/stats" },
 };
 
+export const dynamic = "force-static";
+
 const TIERS = [
   { win: "51-52%", heroes: "Juggernaut, Razor, Zeus", color: "bg-secondary/5 border-secondary/20" },
   { win: "49-50%", heroes: "Anti-Mage, Slark, Storm Spirit", color: "bg-primary/5 border-primary/20" },
